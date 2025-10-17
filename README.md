@@ -20,17 +20,22 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
   - `<article>` para cada tipo de kebab con descripción y precio.  
   - `<footer>` con información de contacto y redes sociales.
 
+  A todo esto se le añade el uso de `h1` - `h6` para tener los encabezados y el tipo de letra correctamente situado.
+
 - **Multimedia:**  
-  Incluye imágenes de los kebabs con `<img>` para atraer clientes.
+  Incluye imágenes con `<img>` para atraer clientes y que puedan ver que se hace en el restaurante.
 
 - **Formulario:**  
-  Añade un formulario con campos para pedidos o reservas usando `<form>`, `<input>`, y `<button>`.
+  Añade un formulario para poder registrarse dentro de la web y ser cliente exclusivo utilizando `<form>`, `<input>`, y `<button>`.
 
 - **Accesibilidad:**  
-  Mejora la experiencia de usuarios con etiquetas y atributos adecuados, como `alt` en imágenes.
+  Mejora la experiencia de usuarios con etiquetas y atributos adecuados, como por ejemplo reduciendo el uso de la eqtiqueta ´div´ para utilizar correctamente las etiquetas ´article´ y ´section´.
   
 - **Blog:**
-  Contiene ofertas y promociones de la tienda utilizando `<article>` y `<section>` para agruparlas por categorías. 
+  Contiene ofertas y promociones de la tienda utilizando `<article>` y `<section>` para agruparlas por categorías.
+
+- **
 ---
+
 
  
