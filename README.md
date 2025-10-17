@@ -1,6 +1,6 @@
 # Proyecto_Tienda_Kebab
 
-Para este proyecto he escogido como idea ser el encargado de crear una pagina web de un local de Kebab
+Para este proyecto he escogido ser el encargado de crear una pagina web con HTML5 y CSS3 para un KEBAB.
 
 ## Idea y desarrollo
 - La idea surgió porque siempre se suelen hacer las mismas páginas web, ya sean tiendas, blogs, noticias o eventos y quería, innovar un poco con un tema como son los restaurantes.
@@ -34,7 +34,6 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 - **Blog:**
   Contiene ofertas y promociones de la tienda utilizando `<article>` y `<section>` para agruparlas por categorías.
 
-- **
 ---
 
 
