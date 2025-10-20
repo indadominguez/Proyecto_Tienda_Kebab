@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Kebab Amigo</title>
+    <meta name="description" content="Formulario de contacto de Kebab Amigo. Envíanos tus dudas, sugerencias o pedidos.">
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="assets/img/logo-kebab.jpeg" alt="Logo del restaurante Kebab Amigo" width="120">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="carta-menu.html">Nuestros productos</a></li>
+                <li><a href="sobre-nosotros.html">Horario</a></li>
+                <li><a href="noticias.html">Blog</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+                <li><a href="ofertas.html">Ofertas y combos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contáctanos</h1>
+            <p>En <strong>Kebab Amigo</strong> valoramos tus opiniones. Rellena el siguiente formulario para hacernos llegar tus consultas, sugerencias o pedidos especiales.</p>
+        </section>
+
+         <section>
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 612345678">
+                </p>
+
+                <p>
+                    <label for="asunto">Asunto:</label><br>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="pedido">Realizar un pedido</option>
+                        <option value="reserva">Reservar mesa</option>
+                        <option value="sugerencia">Enviar una sugerencia</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+        </section>
+    </main>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kebab Amigo. Todos los derechos reservados.</p>
+        <p><a href="formulario.html">Contáctanos</a> | <a href="sobre-nosotros.html">Sobre nosotros</a></p>
+    </footer>
+
+</body>
+</html>
