@@ -39,18 +39,24 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 ## Decisiones y contenido de cada página 
 
 
-- index.html
+- ### index.html
+    - Página principal del proyecto, contiene en grande el nombre de la página y la información más importante como son los productos destacados y las ofertas del mes del local.
 
-- carta-menu.html
-
-- tienda.html
-
-- noticias.html
-
-- formulario.html
-
-- ofertas.html
-
+- ### carta-menu.html
+    - Incluye todo nuestro menú con una pequeña sección de para validar que la comida del local le gusta a la gente incluyendo también fotos de cada plato.
+      
+- ### tienda.html
+    - Va a ser la página encardada de guardar el pedido que haga el cliente dentro del formulario de pedidos que se encuentra abajo.
+    
+- ### noticias.html
+    - Página de completa información, explica por qué abrió el local y cuenta como se realiza cada uno de nuestros platos incluyendo el origen del kebab o también llamado shawarma
+    
+- ### formulario.html
+    - 
+    
+- ### ofertas.html
+    - 
+    
 
 
 
