@@ -36,5 +36,36 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 
 ---
 
+## Decisiones y contenido de cada página 
 
- 
+
+- index.html
+
+- carta-menu.html
+
+- tienda.html
+
+- noticias.html
+
+- formulario.html
+
+- ofertas.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
