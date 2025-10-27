@@ -52,7 +52,7 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
     - Página de completa información, explica por qué abrió el local y cuenta como se realiza cada uno de nuestros platos incluyendo el origen del kebab o también llamado shawarma
     
 - ### formulario.html
-    - 
+    - Se podrán realizar pedidos dentro del formulario para cambiar un poco y que no sea siempre el mismon formulario de registro y darle una más realista a la web.
     
 - ### ofertas.html
     - 
