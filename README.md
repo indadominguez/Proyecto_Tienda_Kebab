@@ -3,7 +3,7 @@
 Para este proyecto he escogido ser el encargado de crear una pagina web con HTML5 y CSS3 para un KEBAB.
 
 ## Idea y desarrollo
-- La idea surgió porque siempre se suelen hacer las mismas páginas web, ya sean tiendas, blogs, noticias o eventos y quería, innovar un poco con un tema como son los restaurantes.
+- La idea surgió porque siempre se suelen hacer las mismas páginas web, ya sean tiendas, blogs, noticias o eventos y quería innovar un poco con un tema como son los restaurantes.
 
 - Para poder plasmar mis ideas en la página hago uso de diferentes lenguajes de marcas como HTML5 y Markdown y posteriormente CSS3.
 
