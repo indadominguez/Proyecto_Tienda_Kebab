@@ -37,30 +37,31 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 ---
 
 ## Decisiones y contenido de cada página 
+- **index.html**
+Página principal del proyecto.  
+Contiene:
+- El nombre del restaurante en grande.  
+- Información importante como los **productos destacados** y **ofertas del mes**.
 
+- **carta-menu.html**
+Incluye todo el menú del restaurante.  
+También tiene una pequeña sección para **validar la satisfacción de los clientes** e **incluir fotos de cada plato**.
 
-- ### index.html
-    - Página principal del proyecto, contiene en grande el nombre de la página y la información más importante como son los productos destacados y las ofertas del mes del local.
+- **tienda.html**
+Página encargada de **guardar el pedido del cliente** dentro del formulario de pedidos que se encuentra al final de la página.
 
-- ### carta-menu.html
-    - Incluye todo nuestro menú con una pequeña sección de para validar que la comida del local le gusta a la gente incluyendo también fotos de cada plato.
-      
-- ### tienda.html
-    - Va a ser la página encardada de guardar el pedido que haga el cliente dentro del formulario de pedidos que se encuentra abajo.
-    
-- ### noticias.html
-    - Página de completa información, explica por qué abrió el local y cuenta como se realiza cada uno de nuestros platos incluyendo el origen del kebab o también llamado shawarma
-    
-- ### formulario.html
-    - Se podrán realizar pedidos dentro del formulario para cambiar un poco y que no sea siempre el mismon formulario de registro y darle una más realista a la web.
-    
-- ### ofertas.html
-    - Lugar para poder ver las ofertas dentro del local, como es dificil dividir una página de comida en tantas páginas que puedan ser relevantes incluyo en las ofertas, también ofertas del mes que iran cambiando el primero de cada mes.
-    
+- **noticias.html**
+Página con información completa sobre el restaurante.  
+Explica **por qué abrió el local** y **cómo se elaboran los platos**, incluyendo el **origen del kebab o shawarma**.
 
+- **formulario.html**
+Permite **realizar pedidos** a través de un formulario, ofreciendo una experiencia diferente al formulario de registro para hacerlo más **realista y funcional**.
 
+- **ofertas.html**
+Lugar donde se pueden ver las **ofertas del local**, incluyendo las **ofertas del mes**, que se actualizan **el primer día de cada mes**.  
+Esta página sirve para mantener la web dinámica e interesante para los clientes habituales.
 
-
+---
 
 
 
