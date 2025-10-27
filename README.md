@@ -55,7 +55,7 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
     - Se podrán realizar pedidos dentro del formulario para cambiar un poco y que no sea siempre el mismon formulario de registro y darle una más realista a la web.
     
 - ### ofertas.html
-    - 
+    - Lugar para poder ver las ofertas dentro del local, como es dificil dividir una página de comida en tantas páginas que puedan ser relevantes incluyo en las ofertas, también ofertas del mes que iran cambiando el primero de cada mes.
     
 
 
