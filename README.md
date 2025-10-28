@@ -37,29 +37,29 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 ---
 
 ## Decisiones y contenido de cada página 
-- **index.html**
+- **index.html:**
 Página principal del proyecto.  
 Contiene:
-- El nombre del restaurante en grande.  
-- Información importante como los **productos destacados** y **ofertas del mes**.
+  - El nombre del restaurante en grande.  
+  - Información importante como los **productos destacados** y **ofertas del mes**.
 
-- **carta-menu.html**
+- **carta-menu.html:**
 Incluye todo el menú del restaurante.  
 También tiene una pequeña sección para **validar la satisfacción de los clientes** e **incluir fotos de cada plato**.
 
-- **tienda.html**
+- **tienda.html:**
 Página encargada de **guardar el pedido del cliente** dentro del formulario de pedidos que se encuentra al final de la página.
 
-- **noticias.html**
+- **noticias.html:**
 Página con información completa sobre el restaurante.  
 Explica **por qué abrió el local** y **cómo se elaboran los platos**, incluyendo el **origen del kebab o shawarma**.
 
-- **formulario.html**
+- **formulario.html:**
 Permite **realizar pedidos** a través de un formulario, ofreciendo una experiencia diferente al formulario de registro para hacerlo más **realista y funcional**.
 
-- **ofertas.html**
-Lugar donde se pueden ver las **ofertas del local**, incluyendo las **ofertas del mes**, que se actualizan **el primer día de cada mes**.  
-Esta página sirve para mantener la web dinámica e interesante para los clientes habituales.
+- **ofertas.html:**
+  Lugar donde se pueden ver las **ofertas del local**, incluyendo las **ofertas del mes**, que se actualizan **el primer día de cada mes**.  
+  Esta página sirve para mantener la web dinámica e interesante para los clientes habituales.
 
 ---
 
