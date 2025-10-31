@@ -37,29 +37,29 @@ El proyecto incluye nuevas etiquetas semánticas como `<header>`, `<nav>`, `<sec
 ---
 
 ## Decisiones y contenido de cada página 
-- **index.html:**
-Página principal del proyecto.  
-Contiene:
-  - El nombre del restaurante en grande.  
-  - Información importante como los **productos destacados** y **ofertas del mes**.
+He considerado que estas 6 páginas pueden darle a la web mucho juego a la hora de poder sacarle partido a las diferentes ideas y así poder tener un diseño de la página muy visual y llamativo.
 
-- **carta-menu.html:**
-Incluye todo el menú del restaurante.  
-También tiene una pequeña sección para **validar la satisfacción de los clientes** e **incluir fotos de cada plato**.
+- **index.html:**  
+  Página principal del proyecto.  
+ - Incluye información importante como los **productos destacados** y **ofertas del mes**.
 
-- **tienda.html:**
-Página encargada de **guardar el pedido del cliente** dentro del formulario de pedidos que se encuentra al final de la página.
+- **carta-menu.html:**  
+  Incluye todo el menú del restaurante e **incluye fotos de cada plato**.
 
-- **noticias.html:**
-Página con información completa sobre el restaurante.  
-Explica **por qué abrió el local** y **cómo se elaboran los platos**, incluyendo el **origen del kebab o shawarma**.
+- **tienda.html:**  
+  Página encargada de vender **nuestros propios productos** al cliente y recomendándole técnicas de elaboración.
 
-- **formulario.html:**
-Permite **realizar pedidos** a través de un formulario, ofreciendo una experiencia diferente al formulario de registro para hacerlo más **realista y funcional**.
+- **noticias.html:**  
+  Página con información completa sobre el restaurante.  
+  - Explica **por qué abrió el local** y **cómo se elaboran los platos**, incluyendo el **origen del kebab o shawarma**, un **menú de reseñas** y nuestro conocido **reto de comida**.
 
-- **ofertas.html:**
+- **formulario.html:**  
+  Permite **realizar pedidos** a través de un formulario, ofreciendo una experiencia diferente al formulario de registro para hacerlo más **realista y funcional**.
+
+- **ofertas.html:**  
   Lugar donde se pueden ver las **ofertas del local**, incluyendo las **ofertas del mes**, que se actualizan **el primer día de cada mes**.  
-  Esta página sirve para mantener la web dinámica e interesante para los clientes habituales.
+  - Esta página sirve para mantener la web dinámica e interesante para los clientes habituales.
+
 
 ---
 
