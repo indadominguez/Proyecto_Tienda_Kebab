@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Kebab Amigo</title>
-    <meta name="description" content="Formulario de contacto de Kebab Amigo. Envíanos tus dudas, sugerencias o pedidos.">
+    <title>Formulario de Pedido - Kebab Amigo</title>
+    <meta name="description" content="Formulario para realizar pedidos en Kebab Amigo y ver los productos más populares.">
 </head>
 <body>
 
     <header>
         <a href="index.html">
-            <img src="assets/img/logo-kebab.jpeg" alt="Logo del restaurante Kebab Amigo" width="120">
+            <img src="assets/img/logo-kebab.jpeg" alt="Logo de Kebab Amigo">
         </a>
-
         <nav>
             <ul>
                 <li><a href="index.html">Página principal</a></li>
                 <li><a href="carta-menu.html">Nuestros productos</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="Tienda.html">Tienda</a></li>
                 <li><a href="noticias.html">Blog</a></li>
                 <li><a href="formulario.html">Contacto</a></li>
                 <li><a href="ofertas.html">Ofertas y combos</a></li>
@@ -27,50 +26,55 @@
 
     <main>
         <section>
-            <h1>Contáctanos</h1>
-            <p>En <strong>Kebab Amigo</strong> valoramos tus opiniones. Rellena el siguiente formulario para hacernos llegar tus consultas, sugerencias o pedidos especiales.</p>
-        </section>
-
-         <section>
-            <h2>Formulario de contacto</h2>
+            <h1>Realizar un pedido</h1>
             <form action="#" method="post">
-
                 <p>
                     <label for="nombre">Nombre completo:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                    <input type="text" id="nombre" name="nombre" size="50" maxlength="100" placeholder="Escribe tu nombre completo" required>
                 </p>
-
                 <p>
                     <label for="correo">Correo electrónico:</label><br>
-                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    <input type="email" id="correo" name="correo" size="50" maxlength="100" placeholder="ejemplo@correo.com" required>
                 </p>
-
                 <p>
                     <label for="telefono">Teléfono:</label><br>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 697245789">
+                    <input type="tel" id="telefono" name="telefono" size="20" maxlength="15" placeholder="Ej: 612345678">
                 </p>
-
                 <p>
-                    <label for="asunto">Asunto:</label><br>
-                    <select id="asunto" name="asunto" required>
-                        <option value="">Selecciona una opción</option>
-                        <option value="pedido">Realizar un pedido</option>
-                        <option value="reserva">Reservar mesa</option>
-                        <option value="sugerencia">Enviar una sugerencia</option>
-                        <option value="otros">Otros</option>
+                    <label for="producto">Producto:</label><br>
+                    <select id="producto" name="producto" required>
+                        <option value="">Selecciona un producto</option>
+                        <option value="Kebab clásico">Kebab clásico</option>
+                        <option value="Durum mixto">Durum mixto</option>
+                        <option value="Patatas con carne">Patatas con carne</option>
                     </select>
                 </p>
-
                 <p>
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    <label for="cantidad">Cantidad:</label><br>
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="20" value="1" required>
                 </p>
-
                 <p>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar pedido">
                     <input type="reset" value="Borrar">
                 </p>
             </form>
+        </section>
+
+        <section>
+            <h2>Productos más populares</h2>
+            <ul>
+                <li>Kebab clásico</li>
+                <li>Durum mixto</li>
+                <li>Patatas con carne y salsa de yogur</li>
+                <li>Pizza turca</li>
+            </ul>
+            <p>Estos son los productos más populares entre nuestros clientes. ¡No te quedes sin probarlos!</p>
+        </section>
+
+        <section>
+            <h2>Consejos para pedidos</h2>
+            <p>Recuerda que puedes personalizar tu pedido indicando tus preferencias en el apartado de notas si fuera necesario.</p>
+            <p>Si quieres recibir tu pedido a domicilio, asegúrate de escribir correctamente tu dirección y teléfono.</p>
         </section>
     </main>
 
