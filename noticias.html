@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias - Kebab Amigo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta name="description" content="Formulario de contacto de Kebab Amigo. Envíanos tus dudas, sugerencias o pedidos.">
 </head>
 <body>
 
-    <header>
-        <a href="index.html">
-            <img src="assets/img/logo-kebab.jpeg" alt="Logo del restaurante Kebab Amigo">
-        </a>
+    <header class="cabecera">
+    <a class="cabecera__logo" href="index.html">
+        <img src="assets/img/kebab-logo-prueba.jpg" alt="Logo del restaurante Kebab" width="100"> 
+    </a>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Página principal</a></li>
-                <li><a href="carta-menu.html">Nuestros productos</a></li>
-                <li><a href="Tienda.html">Tienda</a></li>
-                <li><a href="noticias.html">Blog</a></li>
-                <li><a href="formulario.html">Contacto</a></li>
-                <li><a href="ofertas.html">Ofertas y combos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navegador">
+        <ul class="menu">
+            <li><a class="menu__opcion" href="index.html">Página principal</a></li>
+            <li><a class="menu__opcion" href="carta-menu.html">Nuestros productos</a></li>
+            <li><a class="menu__opcion" href="tienda.html">Tienda</a></li>
+            <li><a class="menu__opcion" href="noticias.html">Blog</a></li>
+            <li><a class="menu__opcion" href="formulario.html">Contacto</a></li>
+            <li><a class="menu__opcion" href="ofertas.html">Ofertas y combos</a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <main>
         <section>
@@ -105,9 +107,12 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Kebab Amigo. Todos los derechos reservados.</p>
-        <p><a href="formulario.html">Contáctanos</a> | <a href="noticias.html">Sobre nosotros</a></p>
+    <footer class="pie">
+        <p class="pie__texto">&copy; 2025 Kebab Amigo. Todos los derechos reservados.</p>
+        <p class="pie__enlaces">
+            <a class="pie__link" href="formulario.html">Contáctanos</a> |
+            <a class="pie__link" href="noticias.html">Sobre nosotros</a>
+        </p>
     </footer>
 
 </body>

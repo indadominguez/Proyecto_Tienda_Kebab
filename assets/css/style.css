@@ -1,0 +1,103 @@
+
+/* =========================
+    VARIABLES E IMPORTACIONES
+   ========================= */
+
+
+:root{
+    --color-primario: #8C271E;
+    --color-secundario: #F6E27F;
+    --color-blanco: #FFFFFF;
+    --color-oscuro: #222222;
+}
+
+/* =========================
+            RESET
+   ========================= */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* =========================
+            CABECERA
+   ========================= */
+
+.cabecera{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-secundario);
+}
+
+
+.cabecera__logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+.navegador{
+    width: 60%
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+.menu__opcion {
+    color: var(--color-blanco);
+    font-size: 1.2rem; 
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+
+.menu__opcion:hover {
+    color: var(--color-secundario);
+}
+
+
+/* =========================
+    PIE DE PÁGINA (FOOTER)
+   ========================= */
+
+.pie {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.pie__texto {
+    margin-bottom: 0.5rem;
+}
+
+.pie__enlaces {
+    margin: 0;
+}
+
+.pie__link {
+    color: var(--color-secundario);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+
+.pie__link:hover {
+    text-decoration: underline;
+}
