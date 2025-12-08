@@ -108,4 +108,3 @@ No tenía cerrada una sección, fallo solucionado.
 
 ![style.css](<Captura de pantalla 2025-12-08 214519-1.png>)
 
-https://jigsaw.w3.org/css-validator/validator
