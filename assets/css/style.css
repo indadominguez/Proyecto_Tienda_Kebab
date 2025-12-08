@@ -185,7 +185,7 @@ a{
     padding: 3rem 2rem;
     border-radius: 12px;
     margin: 2rem auto;
-    max-width: 900px;
+    max-width: 1200px;
     text-align: center;
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
@@ -199,11 +199,11 @@ a{
 }
 
 .ofertas__lista {
-    list-style: none;
-    padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-items: stretch;
+    margin: 0 auto;   
 }
 
 .ofertas__item {
@@ -322,9 +322,9 @@ a{
 }
 
 
-/* ==============================
+/* ==================================
     BLOQUE PRINCIPAL FORMULARIO(MAIN)
-   ============================== */
+   ================================== */
 
 
 .formulario {
@@ -479,4 +479,260 @@ a{
 
 .seccion-destacados__item a:hover {
     color: var(--color-blanco);
+}
+
+
+/* =============================
+    BLOQUE PRINCIPAL BLOG(MAIN)
+   ============================= */
+
+
+.historia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    align-items: start; 
+}
+
+.historia__articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--color-blanco);
+    color: var(--color-oscuro);
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.historia__articulo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.historia__titulo {
+    grid-column: span 3;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--color-primario);
+}
+
+.historia__subtitulo {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--color-primario);
+}
+
+.historia__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.historia__parrafo {
+    line-height: 1.6;
+    color: var(--color-oscuro);
+}
+
+
+.reto {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--color-blanco) 0%, #f9f9f9 100%); /* ligero degradado */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.reto:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.reto__titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, serif;
+    color: var(--color-primario);
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.reto__imagen {
+    display: block;
+    margin: 0 auto 2rem auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.reto__imagen:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.reto__articulo {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--color-blanco); 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.reto__articulo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.reto__subtitulo {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.reto__parrafo {
+    color: var(--color-oscuro);
+    line-height: 1.6;
+}
+
+
+.resenas {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: var(--color-blanco);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.resenas__titulo {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-primario);
+}
+
+.resenas__tabla {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.resenas__caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primario);
+}
+
+.resenas__cabecera {
+    border-bottom: 2px solid var(--color-primario);
+    padding: 0.8rem;
+    color: var(--color-primario);
+}
+
+.resenas__fila:nth-child(even) {
+    background-color: var(--color-blanco);
+}
+
+.resenas__dato {
+    padding: 0.8rem;
+    color: var(--color-oscuro);
+}
+
+
+/* ================================
+    BLOQUE PRINCIPAL OFERTAS(MAIN)
+   ================================ */
+
+
+
+.ofertas-intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.ofertas-intro__titulo {
+    font-size: 2.5rem;
+    font-family: Georgia, serif;
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+}
+
+.ofertas-intro__descripcion {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-oscuro);
+}
+
+.combos-destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    align-items: start;
+}
+
+.combos-destacados__titulo {
+    grid-column: span 3;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-primario);
+    font-family: Georgia, serif;
+    margin-bottom: 2rem;
+}
+
+.combo {
+    background-color: var(--color-primario);  
+    color: var(--color-blanco);  
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.combo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.combo__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.combo__titulo {
+    font-size: 1.3rem;
+    color: var(--color-blanco);
+    margin-bottom: 0.5rem;
+}
+
+.combo__descripcion {
+    color: var(--color-blanco);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.combo__precio {
+    font-weight: bold;
+    color: var(--color-secundario); 
 }

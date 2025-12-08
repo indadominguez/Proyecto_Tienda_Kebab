@@ -27,50 +27,75 @@
     </header>
 
     <main>
-        <section>
-            <h1>Ofertas y Combos Especiales</h1>
-            <p>En <strong>Kebab Amigo</strong> queremos que disfrutes del mejor sabor al mejor precio. Echa un vistazo a nuestras ofertas y combos especiales disponibles durante este mes. <strong>(APROVECHA QUE SE ACABAN)</strong></p>
+        <section class="ofertas-intro">
+            <h1 class="ofertas-intro__titulo">Ofertas y Combos Especiales</h1>
+            <p class="ofertas-intro__descripcion">
+                En <strong>Kebab Amigo</strong> queremos que disfrutes del mejor sabor al mejor precio. 
+                Echa un vistazo a nuestras ofertas y combos especiales disponibles durante este mes. 
+                <strong>(APROVECHA QUE SE ACABAN)</strong>
+            </p>
         </section>
 
-        <section>
-            <h2>Combos destacados</h2>
-            <article>
-                <h3>Combo 1 - Kebab clásico + patatas + refresco</h3>
-                <p>Una pita con patatas fritas y bebida.</p>
-                <p><strong>Precio:</strong> 7,00 €</p>
-            </article>
+        <section class="combos-destacados">
+            <h2 class="combos-destacados__titulo">Combos destacados</h2>
 
-            <article>
-                <h3>Combo 2 - Dürum + patatas + refresco</h3>
-                <p>Un dürum con patatas fritas y bebida.</p>
-                <p><strong>Precio:</strong> 7,50 €</p>
-            </article>
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/Kebab-Patatas-Coca-Cola.png" alt="Combo 1 - Kebab clásico">
+            <h3 class="combo__titulo">Combo 1 - Kebab clásico + patatas + refresco</h3>
+            <p class="combo__descripcion">Una pita con patatas fritas y bebida.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 7,00 €</p>
+        </article>
 
-            <article>
-                <h3>Combo 3 - Menú Familiar</h3>
-                <p>Incluye 2 kebabs, 2 dürums, patatas grandes y 4 refrescos. Ideal para compartir.</p>
-                <p><strong>Precio:</strong> 22,00 €</p>
-            </article>
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/menu-durum.png" alt="Combo 2 - Durum clásico">
+            <h3 class="combo__titulo">Combo 2 - Dürum + patatas + refresco</h3>
+            <p class="combo__descripcion">Un dürum con patatas fritas y bebida.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 7,50 €</p>
+        </article>
 
-            <article>
-                <h3>Combo 4 - Menú Vegetariano</h3>
-                <p>Contiene un falafel + bebida + patatas y samosa de lentejas.</p>
-                <p><strong>Precio:</strong> 8,00 €</p>
-            </article>
-            
-            <article>
-                <h3>Combo 5 - Plato de patatas con carne + refresco</h3>
-                <p>Incluye plato grande de patatas con carne y bebida.</p>
-                <p><strong>Precio:</strong> 7,00 €</p>
-            </article>
-        </section>
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/menu-familiar.png" alt="Combo 3 - Familiar">
+            <h3 class="combo__titulo">Combo 3 - Menú Familiar</h3>
+            <p class="combo__descripcion">Incluye 2 kebabs, 2 dürums, patatas grandes y 4 refrescos. Ideal para compartir.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 22,00 €</p>
+        </article>
 
-        <section>
-            <h2>Ofertas del mes</h2>
-            <ul>
-                <li>Combo Kebab + bebida + patatas: 5,50 €</li>
-                <li>Martes: 2 durum: 10 €</li>
-                <li>Pizza Turca + pita: 9 €</li>
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/falafel.png" alt="Combo 4 - Vegetariano">
+            <h3 class="combo__titulo">Combo 4 - Menú Vegetariano</h3>
+            <p class="combo__descripcion">Contiene un falafel + bebida + patatas y samosa de lentejas.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 8,00 €</p>
+        </article>
+        
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/patatas-carne.png" alt="Combo 5 - Patatas con Carne">
+            <h3 class="combo__titulo">Combo 5 - Plato de patatas con carne + refresco</h3>
+            <p class="combo__descripcion">Incluye plato grande de patatas con carne y bebida.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 7,00 €</p>
+        </article>
+
+        <article class="combo">
+            <img class="combo__imagen" src="assets/img/arroz-carne.png" alt="Combo 6 - Arroz con Carne">
+            <h3 class="combo__titulo">Combo 6 - Plato de arroz con carne + refresco</h3>
+            <p class="combo__descripcion">Incluye plato grande de arroz con carne y bebida.</p>
+            <p class="combo__precio"><strong>Precio:</strong> 7,00 €</p>
+        </article>
+
+        <section class="ofertas-secundarias">
+            <h2 class="ofertas-secundarias__titulo">Ofertas Especiales</h2>
+            <ul class="ofertas-secundarias__lista">
+                <li class="ofertas-secundarias__item">
+                    Combo Kebab + bebida + patatas. <strong class="ofertas-secundarias__precio">Precio:</strong> 7,50 €
+                    <img class="ofertas-secundarias__imagen" src="assets/img/Kebab-Patatas-Coca-Cola.png" alt="Combo Kebab">
+                </li>
+                <li class="ofertas-secundarias__item">
+                    Martes: 2 durum. <strong class="ofertas-secundarias__precio">Precio:</strong> 10 €
+                    <img class="ofertas-secundarias__imagen" src="assets/img/2-kebabs.png" alt="Martes 2 durum">
+                </li>
+                <li class="ofertas-secundarias__item">
+                Pizza Turca + pita. <strong class="ofertas-secundarias__precio">Precio:</strong> 9 €
+                    <img class="ofertas-secundarias__imagen" src="assets/img/Pita-pizza.png" alt="Pizza y pita">
+                </li>
             </ul>
         </section>
     </main>
