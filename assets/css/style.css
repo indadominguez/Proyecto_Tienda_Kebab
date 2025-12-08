@@ -103,9 +103,9 @@ a{
 
 
 
-/* =========================
-    BLOQUE PRINCIPAL (MAIN)
-   ========================= */
+/* ==============================
+    BLOQUE PRINCIPAL INDEX(MAIN)
+   ============================== */
 
 .inicio {
     background-color: var(--color-primario); 
@@ -253,6 +253,230 @@ a{
 
 
 
+/* ==================================
+    BLOQUE PRINCIPAL PRODUCTOS(MAIN)
+   ================================== */
 
 
+.carta {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
 
+.carta__titulo {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: var(--color-primario);
+}
+
+.categoria {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--color-primario);
+}
+
+.categoria__titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+    color: var(--color-oscuro);
+}
+
+.plato {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-left: 6px solid;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    background-color: var(--color-blanco);
+    border-left-color: var(--color-secundario);
+}
+
+.plato:hover {
+    background-color: var(--color-secundario)
+}
+
+.plato__imagen {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.plato__titulo {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--color-primario);
+}
+
+.plato__descripcion {
+    line-height: 1.4;
+    color: var(--color-oscuro);
+}
+
+
+/* ==============================
+    BLOQUE PRINCIPAL FORMULARIO(MAIN)
+   ============================== */
+
+
+.formulario {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: var(--color-secundario); 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.formulario__titulo {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--color-primario);
+}
+
+.formulario__grupo {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 2px solid var(--color-primario); 
+    border-radius: 8px;
+    background-color: var(--color-blanco); 
+}
+
+.formulario__legend {
+    font-weight: bold;
+    padding: 0 0.5rem;
+    color: var(--color-primario);
+}
+
+.formulario__label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: var(--color-oscuro);
+}
+
+.formulario__input,
+.formulario__select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--color-primario); 
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--color-oscuro);
+    background-color: var(--color-blanco);  
+}
+
+.formulario__boton {
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.formulario__boton--submit {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+}
+
+.formulario__boton--submit:hover {
+    transform: translateY(-3px);
+    background-color: var(--color-secundario);
+}
+
+.formulario__boton--reset {
+    background-color: var(--color-primario);  
+    color: var(--color-blanco);  
+}
+
+.formulario__boton--reset:hover {
+    transform: translateY(-3px);
+    background-color: var(--color-secundario);
+}
+
+
+.seccion-destacados {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: var(--color-primario);
+    text-align: center;
+}
+
+.seccion-destacados__titulo {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+    color: var(--color-blanco);
+}
+
+.seccion-destacados__lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.seccion-destacados__item {
+    background-color: var(--color-secundario); 
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--color-oscuro);
+    transition: transform 0.3s;
+}
+
+.seccion-destacados__item:hover {
+    transform: translateY(-5px);
+}
+
+.seccion-destacados__descripcion {
+    color: var(--color-blanco);
+    line-height: 1.5;
+}
+
+
+.seccion-consejos {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: var(--color-secundario);
+}
+
+.seccion-consejos__titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+    color: var(--color-primario);
+    text-align: center;
+}
+
+.seccion-consejos__parrafo {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--color-oscuro);
+}
+
+.seccion-destacados__item a {
+    color: var(--color-oscuro);
+    text-decoration: none;
+}
+
+.seccion-destacados__item a:hover {
+    color: var(--color-blanco);
+}

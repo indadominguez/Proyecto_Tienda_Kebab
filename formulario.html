@@ -27,62 +27,77 @@
     </header>
 
     <main>
-        <section>
-            <h1>Realizar un pedido</h1>
+        <section class="formulario">
+            <h1 class="formulario__titulo">Realizar un pedido</h1>
             <form action="#" method="post">
-                <p>
-                    <label for="nombre">Nombre completo:</label><br>
-                    <input type="text" id="nombre" name="nombre" size="50" maxlength="100" placeholder="Escribe tu nombre completo" required>
-                </p>
-                <p>
-                    <label for="correo">Correo electrónico:</label><br>
-                    <input type="email" id="correo" name="correo" size="50" maxlength="100" placeholder="ejemplo@correo.com" required>
-                </p>
-                <p>
-                    <label for="telefono">Teléfono:</label><br>
-                    <input type="tel" id="telefono" name="telefono" size="20" maxlength="15" placeholder="Ej: 612345678">
-                </p>
-                <p>
-                    <label for="direccion">Dirección de envío:</label><br>
-                    <input type="text" id="direccion" name="direccion" size="70" maxlength="200" placeholder="Calle, número, ciudad, código postal" required>
-                </p>
-                <p>
-                    <label for="producto">Producto:</label><br>
-                    <select id="producto" name="producto" required>
+
+                <fieldset class="formulario__grupo">
+                    <legend class="formulario__legend">Datos personales</legend>
+
+                    <label class="formulario__label" for="nombre">Nombre completo:</label>
+                    <input class="formulario__input" type="text" id="nombre" name="nombre" size="50" maxlength="100" placeholder="Escribe tu nombre completo" required>
+
+                    <label class="formulario__label" for="correo">Correo electrónico:</label>
+                    <input class="formulario__input" type="email" id="correo" name="correo" size="50" maxlength="100" placeholder="ejemplo@correo.com" required>
+
+                    <label class="formulario__label" for="telefono">Teléfono:</label>
+                    <input class="formulario__input" type="tel" id="telefono" name="telefono" size="20" maxlength="15" placeholder="Ej: 612345678">
+                </fieldset>
+
+                <fieldset class="formulario__grupo">
+                    <legend class="formulario__legend">Dirección de envío</legend>
+
+                    <label class="formulario__label" for="direccion">Dirección:</label>
+                    <input class="formulario__input" type="text" id="direccion" name="direccion" size="70" maxlength="200" placeholder="Calle, número, ciudad, código postal" required>
+                </fieldset>
+
+                <fieldset class="formulario__grupo">
+                    <legend class="formulario__legend">Pedido</legend>
+
+                    <label class="formulario__label" for="producto">Producto:</label>
+                    <select class="formulario__select" id="producto" name="producto" required>
                         <option value="">Selecciona un producto</option>
                         <option value="Kebab clásico">Kebab clásico</option>
                         <option value="Durum mixto">Durum mixto</option>
                         <option value="Patatas con carne">Patatas con carne</option>
                     </select>
-                </p>
+
+                    <label class="formulario__label" for="cantidad">Cantidad:</label>
+                    <input class="formulario__input" type="number" id="cantidad" name="cantidad" min="1" max="20" value="1" required>
+                </fieldset>
+
                 <p>
-                    <label for="cantidad">Cantidad:</label><br>
-                    <input type="number" id="cantidad" name="cantidad" min="1" max="20" value="1" required>
+                    <input class="formulario__boton formulario__boton--submit" type="submit" value="Enviar pedido">
+                    <input class="formulario__boton formulario__boton--reset" type="reset" value="Borrar">
                 </p>
-                <p>
-                    <input type="submit" value="Enviar pedido">
-                    <input type="reset" value="Borrar">
-                </p>
+
             </form>
         </section>
 
-        <section>
-            <h2>Productos más populares</h2>
-            <ul>
-                <li>Kebab clásico</li>
-                <li>Durum mixto</li>
-                <li>Patatas con carne y salsa de yogur</li>
-                <li>Pizza turca</li>
+        
+        <section class="seccion-destacados">
+            <h2 class="seccion-destacados__titulo">Productos destacados</h2>
+            <ul class="seccion-destacados__lista">
+                <li class="seccion-destacados__item">
+                    <a class="seccion-destacados__link" href="index.html#productos-destacados">Kebab clásico</a>
+                </li>
+                <li class="seccion-destacados__item">
+                    <a class="seccion-destacados__link" href="index.html#productos-destacados">Durum mixto</a>
+                </li>
+                <li class="seccion-destacados__item">
+                    <a class="seccion-destacados__link" href="index.html#productos-destacados">Patatas con carne y salsa de yogur</a>
+                </li>
             </ul>
-            <p>Estos son los productos más populares entre nuestros clientes. ¡No te quedes sin probarlos!</p>
+            <p class="seccion-destacados__descripcion">Estos son los productos más populares entre nuestros clientes. ¡No te quedes sin probarlos!</p>
         </section>
 
-        <section>
-            <h2>Consejos para pedidos</h2>
-            <p>Recuerda que puedes personalizar tu pedido indicando tus preferencias en el apartado de notas si fuera necesario.</p>
-            <p>Si quieres recibir tu pedido a domicilio, asegúrate de escribir correctamente tu dirección y teléfono.</p>
+        <section class="seccion-consejos">
+            <h2 class="seccion-consejos__titulo">Consejos para pedidos</h2>
+            <p class="seccion-consejos__parrafo">Recuerda que puedes personalizar tu pedido indicando tus preferencias en el apartado de notas si fuera necesario.</p>
+            <p class="seccion-consejos__parrafo">Si quieres recibir tu pedido a domicilio, asegúrate de escribir correctamente tu dirección y teléfono.</p>
         </section>
     </main>
+
 
     <footer class="pie">
         <p class="pie__texto">&copy; 2025 Kebab Amigo. Todos los derechos reservados.</p>
