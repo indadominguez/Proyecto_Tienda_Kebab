@@ -923,3 +923,424 @@ a{
 .producto-consejo:hover {
     transform: translateY(-5px);
 }
+
+/* ===========================
+        RESPONSIVE INDEX
+   =========================== */
+
+@media screen and (max-width: 1024px) {
+    .inicio {
+        padding: 2.5rem 1rem;
+    }
+    .inicio__titulo {
+        font-size: 2.2rem;
+    }
+    .inicio__descripcion {
+        font-size: 1.05rem;
+    }
+    .destacados {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    .ofertas__lista {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inicio {
+        padding: 2rem 1rem;
+    }
+    .inicio__titulo {
+        font-size: 1.8rem;
+    }
+    .inicio__descripcion {
+        font-size: 1rem;
+    }
+    .destacados {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 1rem;
+    }
+    .destacado {
+        margin-bottom: 1.5rem;
+    }
+    .destacado__imagen {
+        height: 180px;
+    }
+    .ofertas {
+        padding: 2rem 1rem;
+    }
+    .ofertas__titulo {
+        font-size: 2rem;
+    }
+    .ofertas__lista {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .ofertas__item {
+        padding: 1rem;
+    }
+    .ofertas__imagen {
+        height: 160px;
+    }
+    .ofertas__link a {
+        margin-top: 1.5rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inicio__titulo {
+        font-size: 1.5rem;
+    }
+    .inicio__descripcion {
+        font-size: 0.95rem;
+    }
+    .destacado__imagen {
+        height: 150px;
+    }
+    .ofertas__imagen {
+        height: 140px;
+    }
+    .ofertas__titulo {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* ===========================
+        RESPONSIVE PRODUCTOS
+   =========================== */
+
+@media screen and (max-width: 768px) {
+    .carta {
+        padding: 1rem;
+    }
+
+    .carta__titulo {
+        font-size: 2.2rem;
+    }
+
+    .categoria__titulo {
+        font-size: 1.8rem;
+    }
+
+    .plato__titulo {
+        font-size: 1.2rem;
+    }
+
+    .plato__descripcion {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carta__titulo {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .categoria__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .plato {
+        padding: 0.8rem;
+    }
+
+    .plato__titulo {
+        font-size: 1.1rem;
+    }
+
+    .plato__descripcion {
+        font-size: 0.95rem;
+    }
+}
+
+
+/* ===========================
+        RESPONSIVE TIENDA
+   =========================== */
+
+
+@media screen and (max-width: 1024px) {
+    .categoria-carnes,
+    .categoria-panes,
+    .categoria-consejos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .categoria-carnes,
+    .categoria-panes,
+    .categoria-consejos {
+        grid-template-columns: 1fr;
+    }
+
+    .productos__titulo {
+        font-size: 2.2rem;
+    }
+
+    .categoria-carnes__titulo,
+    .categoria-panes__titulo,
+    .categoria-consejos__titulo {
+        font-size: 1.8rem;
+    }
+
+    .producto-carnes__titulo,
+    .producto-panes__titulo,
+    .producto-consejo__titulo {
+        font-size: 1.2rem;
+    }
+
+    .producto-carnes__descripcion,
+    .producto-panes__descripcion,
+    .producto-consejo__descripcion {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .productos__titulo {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .categoria-carnes__titulo,
+    .categoria-panes__titulo,
+    .categoria-consejos__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .producto-carnes,
+    .producto-panes,
+    .producto-consejo {
+        padding: 0.8rem;
+    }
+
+    .producto-carnes__titulo,
+    .producto-panes__titulo,
+    .producto-consejo__titulo {
+        font-size: 1.1rem;
+    }
+
+    .producto-carnes__descripcion,
+    .producto-panes__descripcion,
+    .producto-consejo__descripcion {
+        font-size: 0.95rem;
+    }
+}
+
+
+/* ===========================
+        RESPONSIVE BLOG
+   =========================== */
+
+@media screen and (max-width: 1024px) {
+    .historia {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .historia {
+        grid-template-columns: 1fr;
+    }
+
+    .historia__titulo {
+        font-size: 2.2rem;
+    }
+
+    .historia__subtitulo {
+        font-size: 1.4rem;
+    }
+
+    .reto__titulo {
+        font-size: 1.8rem;
+    }
+
+    .reto__subtitulo {
+        font-size: 1.3rem;
+    }
+
+    .resenas__titulo {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .historia__titulo {
+        font-size: 1.8rem;
+    }
+
+    .historia__subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .reto__titulo {
+        font-size: 1.5rem;
+    }
+
+    .reto__subtitulo {
+        font-size: 1.1rem;
+    }
+
+    .reto__parrafo,
+    .historia__parrafo {
+        font-size: 0.95rem;
+    }
+
+    .resenas__titulo {
+        font-size: 1.3rem;
+    }
+
+    .resenas__dato,
+    .resenas__cabecera {
+        font-size: 0.9rem;
+    }
+
+    .reto__imagen {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ===========================
+        RESPONSIVE FORMULARIO
+   =========================== */
+
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        padding: 1.5rem;
+    }
+
+    .formulario__titulo {
+        font-size: 2rem;
+    }
+
+    .formulario__grupo {
+        padding: 0.8rem;
+    }
+
+    .formulario__label,
+    .formulario__input,
+    .formulario__select {
+        font-size: 0.95rem;
+    }
+
+    .formulario__boton {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .seccion-destacados__titulo,
+    .seccion-consejos__titulo {
+        font-size: 1.6rem;
+    }
+
+    .seccion-destacados__lista {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formulario {
+        padding: 1rem;
+    }
+
+    .formulario__titulo {
+        font-size: 1.8rem;
+    }
+
+    .formulario__label,
+    .formulario__input,
+    .formulario__select {
+        font-size: 0.9rem;
+    }
+
+    .formulario__boton {
+        font-size: 0.95rem;
+    }
+
+    .seccion-destacados__titulo,
+    .seccion-consejos__titulo {
+        font-size: 1.4rem;
+    }
+
+    .seccion-destacados__descripcion,
+    .seccion-consejos__parrafo {
+        font-size: 0.9rem;
+    }
+}
+
+/* ===========================
+        RESPONSIVE OFERTAS
+   =========================== */
+
+
+@media screen and (max-width: 1024px) {
+    .combo,
+    .ofertas-secundarias__item {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ofertas-intro__titulo {
+        font-size: 2rem;
+    }
+
+    .ofertas-intro__descripcion {
+        font-size: 1rem;
+    }
+
+    .combo,
+    .ofertas-secundarias__item {
+        flex: 1 1 100%;
+    }
+
+    .combo__titulo {
+        font-size: 1.2rem;
+    }
+
+    .combo__descripcion {
+        font-size: 0.95rem;
+    }
+
+    .combo__precio {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ofertas-intro {
+        padding: 2rem 1rem;
+    }
+
+    .ofertas-intro__titulo {
+        font-size: 1.8rem;
+    }
+
+    .ofertas-intro__descripcion {
+        font-size: 0.95rem;
+    }
+
+    .combo__titulo {
+        font-size: 1.1rem;
+    }
+
+    .combo__descripcion {
+        font-size: 0.9rem;
+    }
+
+    .combo__precio {
+        font-size: 0.95rem;
+    }
+}
