@@ -798,4 +798,128 @@ a{
 }
 
 
+/* ================================
+    BLOQUE PRINCIPAL TIENDA(MAIN)
+   ================================ */
 
+.productos {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.productos__titulo {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: var(--color-primario);
+}
+
+.categoria-carnes,
+.categoria-panes,
+.categoria-consejos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.categoria-carnes__titulo,
+.categoria-panes__titulo,
+.categoria-consejos__titulo {
+    grid-column: 1 / -1; 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+    color: var(--color-primario);
+    text-align: center;
+}
+
+
+.producto-carnes {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.producto-carnes__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.producto-carnes__titulo {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primario);
+}
+
+.producto-carnes__descripcion,
+.producto-carnes__precio {
+    color: var(--color-oscuro);
+    line-height: 1.4;
+}
+
+.producto-carnes:hover {
+    transform: translateY(-5px);
+}
+
+.producto-panes {
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.producto-panes__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.producto-panes__titulo {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primario);
+}
+
+.producto-panes__descripcion,
+.producto-panes__precio {
+    color: var(--color-oscuro);
+    line-height: 1.4;
+}
+
+.producto-panes:hover {
+    transform: translateY(-5px);
+}
+
+.producto-consejo {
+    background-color: var(--color-primario);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.producto-consejo__titulo {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-blanco);
+}
+
+.producto-consejo__descripcion {
+    color: var(--color-blanco);
+    line-height: 1.4;
+}
+
+.producto-consejo:hover {
+    transform: translateY(-5px);
+}
