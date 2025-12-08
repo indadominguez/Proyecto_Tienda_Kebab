@@ -43,6 +43,12 @@ a{
 .cabecera__logo img {
     width: 100px;
     height: auto;
+    transition: transform 0.3s;
+}
+
+
+.cabecera__logo img:hover {
+    transform: translateY(-3px);
 }
 
 
@@ -59,11 +65,13 @@ a{
     font-weight: bold;
     padding: 0.5rem 1rem;
     color: var(--color-blanco);
+    transition: transform 0.3s, color 0.3s;
 }
 
 
 .menu__opcion:hover {
     color: var(--color-primario);
+    transform: translateY(-3px);
 }
 
 
@@ -116,21 +124,21 @@ a{
 }
 
 .inicio__descripcion {
-    color: var(--color-blanco);
     line-height: 1.6;
     max-width: 700px;
     margin: 0.5rem auto;
     font-size: 1.1rem;
+    color: var(--color-blanco);
 }
 
 
 .destacados {
-    padding: 2rem;
-    background-color: var(--color-primario); 
+    padding: 2rem; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     border-radius: 12px;
+    background-color: var(--color-primario);
 }
 
 
@@ -146,6 +154,7 @@ a{
     background-color: var(--color-blanco);  
     padding: 1rem;
     border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 .destacado__imagen {
@@ -167,6 +176,9 @@ a{
     line-height: 1.4;
 }
 
+.destacado:hover {
+    transform: translateY(-5px);
+}
 
 .ofertas {
     background-color: var(--color-primario);
@@ -235,7 +247,7 @@ a{
 }
 
 .ofertas__link a:hover {
-    background-color: #f0d84f;
+    background-color: #f0d84f; /*Para que resalte el botón*/
     transform: scale(1.05);
 }
 
