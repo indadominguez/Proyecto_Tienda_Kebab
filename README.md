@@ -86,27 +86,30 @@ Al mantener todo el estilo de la web en una sola hoja, se consigue una separaci�
 
 ### carta-menu.html
 
-![carta-menu](<Captura de pantalla 2025-12-08 213615.png>)
+<img width="1290" height="459" alt="Captura de pantalla 2025-12-08 213615" src="https://github.com/user-attachments/assets/f2792e9d-a047-46bd-aa2e-e20c5b916ee6" />
+
 
 ### formulario.html
 
-![formulario.html](<Captura de pantalla 2025-12-08 213727.png>)
+<img width="1496" height="447" alt="Captura de pantalla 2025-12-08 213727" src="https://github.com/user-attachments/assets/0f31777c-0e24-4afa-8d3b-66639ea04778" />
 
 ### noticias.html
 
-![noticias.html](<Captura de pantalla 2025-12-08 213803.png>)
+<img width="1211" height="460" alt="Captura de pantalla 2025-12-08 213803" src="https://github.com/user-attachments/assets/49a7e3cb-0e1a-4a77-8524-01751455c743" />
 
 ### ofertas.html
 
-No tenía cerrada una sección, fallo solucionado.
-![ofertas.html-fallo](<Captura de pantalla 2025-12-08 214216.png>)
-![ofertas.html](<Captura de pantalla 2025-12-08 214310.png>)
+<img width="902" height="688" alt="Captura de pantalla 2025-12-08 214216" src="https://github.com/user-attachments/assets/b1310162-cade-4074-9380-99afddfba447" />
+
+**No tenía cerrada una sección, fallo solucionado.**
+<img width="1388" height="454" alt="Captura de pantalla 2025-12-08 214310" src="https://github.com/user-attachments/assets/31e6aa11-78db-4b00-9ec6-5a00d404464d" />
 
 ### tienda.html
 
-![tienda.html](<Captura de pantalla 2025-12-08 214345.png>)
+<img width="1174" height="444" alt="Captura de pantalla 2025-12-08 214345" src="https://github.com/user-attachments/assets/a5ff573a-7027-4b92-a650-33e18213f778" />
 
 ### style.css
 
-![style.css](<Captura de pantalla 2025-12-08 214519-1.png>)
+<img width="1856" height="841" alt="Captura de pantalla 2025-12-08 214519" src="https://github.com/user-attachments/assets/79aa0f81-a850-460c-af84-b2cc866d0ef7" />
+
 
