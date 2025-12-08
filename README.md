@@ -63,16 +63,47 @@ He considerado que estas 6 páginas pueden darle a la web mucho juego a la hora 
 
 ---
 
+## CSS
+### Estructura principal
+El css esta hecho para todos los archivos que contiene la página, he intendado utilizar lo aprendido tanto en el curso pasado como en este, aunque también hay implementaciones de buscar y querer tener la web un poco más completa.
 
 
+El css inicia con todo lo común dentro de la página como son las variables, las importaciones, el reset, la cabecera y el pie de página. Luego a partir de aquí, sigue una estructura idéntica, tiene el título de que main se va a implementar con el nombre del archivo y debajo todo su contenido, por último, se encuentra todo lo relacionado con la responsividad de la página web.
 
+La paleta de colores ha sido un gran reto, en el trabajo, ya que soy muy perfeccionista con todo lo relacionado a la estética y no encontraba una paleta que me gustase para un trabajo como es un kebab, entonces me decanté por un rojo fuerte y un amarillo potente pero sin llegar a molestar, buscando colores distintos a los asociados con los kebab, como pueden ser el verde o el negro.
 
+La tipografía la tenía clara desde un principio, 'Georgia' me acompaña siempre en mis trabajos desde bachillerato, es un tipo de letra no muy grande, clara y fácil de entender, esto hace que sea perfecta para la carta de un restaurante.
 
+Al mantener todo el estilo de la web en una sola hoja, se consigue una separación clara entre, html, css y en el futuro JS, además de que el css es mucho más facil de trabajar teniendo variables permanentes e inmutables haciendo que se trabaje mucho más ordenado y por último ayuda a tener el mismo tipo de animaciones, tamaños, tipografías y colores evitando errores de desactualización y teniendo así facilidad para detectar un cambio y arreglarlo.
 
+## Validación HTML Y CSS
 
+### index.html
 
+![index.html](<Captura de pantalla 2025-12-08 213339.png>)
 
+### carta-menu.html
 
+![carta-menu](<Captura de pantalla 2025-12-08 213615.png>)
 
+### formulario.html
 
+![formulario.html](<Captura de pantalla 2025-12-08 213727.png>)
 
+### noticias.html
+
+![noticias.html](<Captura de pantalla 2025-12-08 213803.png>)
+
+### ofertas.html
+
+No tenía cerrada una sección, fallo solucionado.
+![ofertas.html-fallo](<Captura de pantalla 2025-12-08 214216.png>)
+![ofertas.html](<Captura de pantalla 2025-12-08 214310.png>)
+
+### tienda.html
+
+![tienda.html](<Captura de pantalla 2025-12-08 214345.png>)
+
+### style.css
+
+![style.css](<Captura de pantalla 2025-12-08 214519-1.png>)
