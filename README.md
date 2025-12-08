@@ -80,7 +80,9 @@ Al mantener todo el estilo de la web en una sola hoja, se consigue una separaci√
 
 ### index.html
 
-![index.html](<Captura de pantalla 2025-12-08 213339.png>)
+
+<img width="966" height="544" alt="index html" src="https://github.com/user-attachments/assets/1bb06d30-5325-4242-9acc-a9b231983377" />
+
 
 ### carta-menu.html
 
