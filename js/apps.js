@@ -3,7 +3,7 @@
 //quiero añadir un script antes de mi footer, a ese div le añado una clase que tenga padding, margin, un background y el color y textplaile y
 //width 100% le quiero añadir a travas de js un mensaje de subcripcion y al final del contenido le añadws un enlace de ver mas
 
-
+/*
 const div = document.createElement('div');
 
 div.style.padding = '1rem ';
@@ -27,4 +27,14 @@ div.appendChild(enlace);
 
 const footer = document.querySelector('footer');
 footer.parentNode.insertBefore(div, footer);
+
+
+const input = document.querySelector(".formulario__input");
+
+input.addEventListener("blur", function(event) {
+    console.log(event);
+});
+
+Actividades realizadas en clase, Se borrará cuando ya no sea necesario tenerlas*/
+
 
