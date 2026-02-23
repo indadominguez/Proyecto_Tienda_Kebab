@@ -7,6 +7,8 @@ Para este proyecto he escogido ser el encargado de crear una pagina web con HTML
 
 - Para poder plasmar mis ideas en la página hago uso de diferentes lenguajes de marcas como HTML5 y Markdown y posteriormente CSS3.
 
+---
+
 ## HTML5
 
 HTML5 es la versión más reciente del lenguaje de marcas **HTML** que usamos para estructurar el contenido en la web.  
@@ -108,8 +110,62 @@ Al mantener todo el estilo de la web en una sola hoja, se consigue una separaci�
 
 <img width="1174" height="444" alt="Captura de pantalla 2025-12-08 214345" src="https://github.com/user-attachments/assets/a5ff573a-7027-4b92-a650-33e18213f778" />
 
-### style.css
+## style.css
 
 <img width="1856" height="841" alt="Captura de pantalla 2025-12-08 214519" src="https://github.com/user-attachments/assets/79aa0f81-a850-460c-af84-b2cc866d0ef7" />
+
+---
+
+## JavaScript
+El proyecto se sigue actualizando y "*Kebab Amigo*" contendrá un nivel básico de JavaScript para poder empezar a ver la verdadera importancia de maquetar bien y tener todo el código ordenado.
+
+**¿Qué son los lenguajes Script?**
+
+Los lenguajes de script son lenguajes de programación diseñados para automatizar tareas que normalmente requieren intervención manual. Estos lenguajes suelen ser más fáciles de escribir y entender en comparación con lenguajes de programación tradicionales como C++ o Java. A menudo se utilizan para el procesamiento de texto, manipulación de archivos, administración de sistemas y desarrollo web. 
+
+### Lenguajes script, función de ejecución y uso en desarrollo web.
+
+En este proyecto, tendremos encuenta los lenguajes de script de cliente y estas son sus principales características
+
+- **Lenguajes de script del lado del cliente**
+  - Se ejecutan en el navegador del usuario.
+  - No requieren comunicación con el servidor para su ejecución.
+  - Mejoran la interactividad y la experiencia del usuario.
+  - Ejemplos: JavaScript, TypeScript, Dart.
+
+
+**Características Principales de JavaScript**
+
+  En el proyecto vamos a trabajar con JavaScript por lo que es importante saber cuales son sus características más relevantes:
+
+  - **Interpretado**: No necesita compilación, el navegador lo ejecuta directamente.
+  - **Orientado a eventos**: Responde a interacciones del usuario (clics, teclas, etc.).
+  - **Débilmente tipado**: No es necesario definir el tipo de las variables.
+  - **Multiparadigma**: Soporta programación funcional, orientada a objetos y basada en eventos.
+  - **Extensible**: Se integra con HTML y CSS, además de otras APIs web.
+
+**Identificación de ECMAScript y sus versiones relevantes.**
+
+ECMAScript es el estándar en el que se basa JavaScript y estas son Algunas de sus versiones más importantes y el año en el que salieron:
+- **ES5 (2009**): Introdujo JSON nativo y mejoras en Arrays.
+- **ES6 (2015)**: Incorporó let, const, funciones flecha, clases y Promise.
+- **ES7 - ESNext (2016 en adelante)**: Añadió async/await, operadores de propagación y más mejoras.
+
+**Comparación entre lenguajes de script como JavaScript, TypeScript u otros.**
+
+Ya que en el trabajo usaremos JavaScript, voy hacer una pequeña comparación de JavaScript, TypeScript y de Dart en forma de tabla (he buscado como se hacía para que la explicación quedase mucho más legible) para ver las ventajas y desventajas de cada uno y sus características principales.
+
+| **Característica**     | **JavaScript**                                            | **TypeScript**                                                      | **Dart**                                                  |
+|------------------------|-----------------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------|
+| **Tipado**             | Dinámico, no requiere declarar tipos.                    | Estático, con tipado explícito, aunque puede inferirse en muchos casos. | Estático, con tipos obligatorios para variables y funciones. |
+| **Compilación**        | No requiere compilación, ejecutado directamente en el navegador. | Se compila a JavaScript antes de ejecutarse en el navegador.       | Se compila a código nativo o a JavaScript (para aplicaciones web). |
+| **Paradigma**          | Multiparadigma (funcional, orientado a objetos, etc.).    | Orientado a objetos con un enfoque más fuerte en clases e interfaces. | Orientado a objetos, muy estructurado. |
+| **Facilidad de uso**   | Fácil de aprender y usar.                                 | Requiere aprender un sistema de tipos estáticos, pero útil en proyectos grandes. | Relativamente fácil de aprender, con un enfoque más fuerte en la organización del código. |
+| **Popularidad**        | Muy popular, estándar para desarrollo web.               | Popular en grandes proyectos, especialmente con Angular.            | Popularidad en crecimiento, especialmente con el uso de Flutter para apps móviles. |
+| **Herramientas**       | Amplio ecosistema (React, Node.js, etc.).                | Mejor soporte en proyectos grandes gracias a su tipado estático.     | Se usa principalmente con Flutter para desarrollo móvil y web. |
+
+**Uso de ejemplos o referencias para justificar la clasificación.**
+
+
 
 
