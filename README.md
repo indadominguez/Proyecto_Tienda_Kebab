@@ -209,6 +209,6 @@ Ya que en el trabajo usaremos JavaScript, voy hacer una pequeña comparación de
 
 **Uso de ejemplos o referencias para justificar la clasificación.**
 
-
+La aplicación más sencilla de ver es que se puede ejecutar directamente en el navegador, eliminando el paso de transpilación necesario en TypeScript.
 
 
