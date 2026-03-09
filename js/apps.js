@@ -35,6 +35,11 @@ input.addEventListener("blur", function(event) {
     console.log(event);
 });
 
-Actividades realizadas en clase, Se borrará cuando ya no sea necesario tenerlas*/
+Actividades realizadas en clase, Se borrará cuando ya no sea necesario tenerlas
+Gestion de controlar el localStorage para manipular el pedido dentro del formulario y tener una division entre el propio formulario y la nueva implementacion.
+*/
 
 
+const pedido = document.getElementsByClassName("menu")
+
+console.log(pedido)
