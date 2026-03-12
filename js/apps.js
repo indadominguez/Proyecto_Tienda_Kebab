@@ -127,4 +127,36 @@ document.head.appendChild(estilos);
         'Durum mixto': 'assets/img/menu-durum.png',
         'Patatas con carne': 'assets/img/patatas-carne.png'
     };
+    
+    // ===============================
+    // FUNCIONES
+    // ===============================
+    function mostrarPedido(pedido) {
+        const articulo = document.createElement('article');
+        articulo.classList.add('pedido');
+        articulo.dataset.producto = pedido.producto;
+
+        articulo.innerHTML = `
+            <img src="${imagenesProductos[pedido.producto]}" alt="${pedido.producto}" width="150">
+            <p><strong>Nombre:</strong> ${pedido.nombre}</p>
+            <p><strong>Correo:</strong> ${pedido.correo}</p>
+            <p><strong>Teléfono:</strong> ${pedido.telefono}</p>
+            <p><strong>Dirección:</strong> ${pedido.direccion}</p>
+            <p><strong>Producto:</strong> ${pedido.producto}</p>
+            <p><strong>Cantidad:</strong> ${pedido.cantidad}</p>
+            <button class="boton-eliminar">Eliminar</button>
+        `;
+
+        articulo.querySelector('.boton-eliminar').addEventListener('click', () => {
+            eliminarPedido(pedido);
+            articulo.remove();
+        });
+
+        pedidosContainer.appendChild(articulo);
+    }
+
+    function eliminarPedido(pedido) {
+        pedidos = pedidos.filter(p => p !== pedido);
+        localStorage.setItem('pedidos', JSON.stringify(pedidos));
+    }
 });
