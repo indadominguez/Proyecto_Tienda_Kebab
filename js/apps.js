@@ -159,4 +159,68 @@ document.head.appendChild(estilos);
         pedidos = pedidos.filter(p => p !== pedido);
         localStorage.setItem('pedidos', JSON.stringify(pedidos));
     }
+
+    
+    const campos = ['nombre','correo','telefono','direccion','producto','cantidad'];
+
+    function validarCampo(campo) {
+        const valor = campo.value.trim();
+        if(!valor) {
+            campo.classList.add('invalido');
+            campo.classList.remove('valido');
+            return false;
+        } else {
+            campo.classList.add('valido');
+            campo.classList.remove('invalido');
+            return true;
+        }
+    }
+
+    formulario.addEventListener('input', e => {
+        if(campos.includes(e.target.id)) validarCampo(e.target);
+    });
+
+    formulario.addEventListener('submit', e => {
+        e.preventDefault();
+        let valido = true;
+
+        campos.forEach(id => {
+            const campo = document.querySelector(`#${id}`);
+            if(!validarCampo(campo)) valido = false;
+        });
+
+        if(!valido) return;
+
+        const pedido = {
+            nombre: document.querySelector('#nombre').value.trim(),
+            correo: document.querySelector('#correo').value.trim(),
+            telefono: document.querySelector('#telefono').value.trim(),
+            direccion: document.querySelector('#direccion').value.trim(),
+            producto: document.querySelector('#producto').value,
+            cantidad: document.querySelector('#cantidad').value
+        };
+
+        pedidos.push(pedido);
+        localStorage.setItem('pedidos', JSON.stringify(pedidos));
+
+        mostrarPedido(pedido);
+
+        formulario.reset();
+        campos.forEach(id => document.querySelector(`#${id}`).classList.remove('valido'));
+    });
+
+    pedidos.forEach(pedido => mostrarPedido(pedido));
+
+    selectFiltro.addEventListener('change', () => {
+        const valor = selectFiltro.value;
+        const articulos = pedidosContainer.querySelectorAll('article');
+
+        articulos.forEach(a => {
+            if(valor === 'todos' || a.dataset.producto === valor) {
+                a.style.display = 'block';
+            } else {
+                a.style.display = 'none';
+            }
+        });
+    });
 });
