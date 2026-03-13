@@ -42,13 +42,10 @@
                     <legend class="formulario__legend">Datos personales</legend>
 
                     <label class="formulario__label" for="nombre">Nombre completo:</label>
-                    <input class="formulario__input" type="text" id="nombre" name="nombre" size="50" maxlength="100" placeholder="Escribe tu nombre completo" required>
-
-                    <label class="formulario__label" for="correo">Correo electrónico:</label>
-                    <input class="formulario__input" type="email" id="correo" name="correo" size="50" maxlength="100" placeholder="ejemplo@correo.com" required>
+                    <input class="formulario__input" type="text" id="nombre" name="nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]{2,}" size="50" maxlength="60" placeholder="Escribe tu nombre completo" required>
 
                     <label class="formulario__label" for="telefono">Teléfono:</label>
-                    <input class="formulario__input" type="tel" id="telefono" name="telefono" size="20" maxlength="15" placeholder="Ej: 612345678">
+                    <input class="formulario__input" type="tel" id="telefono" name="telefono" pattern="\d{9}" size="20" maxlength="9" placeholder="Ej: 612345678" required>
                 </fieldset>
 
                 <fieldset class="formulario__grupo">

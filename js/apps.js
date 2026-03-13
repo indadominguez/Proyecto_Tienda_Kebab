@@ -70,10 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const campos = formulario.querySelectorAll('input, select');
 
     const validarCampo = campo => {
-        const valor = campo.value.trim();
-        campo.classList.toggle('invalido', !valor);
-        campo.classList.toggle('valido', !!valor);
-        return !!valor;
+        const valido = campo.checkValidity();
+        campo.classList.toggle('invalido', !valido);
+        campo.classList.toggle('valido', valido);
+        return valido;
     };
 
     formulario.addEventListener('input', e => {
@@ -90,7 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const pedido = {
             nombre: formulario.querySelector('#nombre').value.trim(),
-            correo: formulario.querySelector('#correo').value.trim(),
             telefono: formulario.querySelector('#telefono').value.trim(),
             direccion: formulario.querySelector('#direccion').value.trim(),
             producto: formulario.querySelector('#producto').value,
