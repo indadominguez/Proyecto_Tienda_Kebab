@@ -125,9 +125,7 @@ El diseño es el resultado de una búsqueda perfeccionista por una estética pro
 
 ### index.html
 
-
-<img width="966" height="544" alt="index html" src="https://github.com/user-attachments/assets/1bb06d30-5325-4242-9acc-a9b231983377" />
-
+![index.html](validaciones-W3C/index.html.png)
 
 ### carta-menu.html
 
