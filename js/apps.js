@@ -28,18 +28,32 @@ document.addEventListener('DOMContentLoaded', () => {
         <option value="todos">Todos</option>
         <option value="Kebab clásico">Kebab clásico</option>
         <option value="Durum mixto">Durum mixto</option>
+        <option value="Kebab vegetal">Kebab vegetal</option>
         <option value="Patatas con carne">Patatas con carne</option>
+        <option value="Arroz con carne">Arroz con carne</option>
+        <option value="Pizza turca clásica">Pizza turca clásica</option>
+        <option value="Pizza turca vegetariana">Pizza turca vegetariana</option>
+        <option value="Menú familiar">Menu familiar</option>
+        <option value="Menu vegetariano">Menu vegetariano</option>
+        <option value="Pizza turca más pita">Pizza turca más pita</option>
     `;
     formulario.parentNode.insertBefore(selectFiltro, galeriaPedidos);
 
-    // Cargar los pedidos guardados en localStorage o iniciar array vacío
+    // Cargar los pedidos guardados
     let pedidos = JSON.parse(localStorage.getItem('pedidos')) || [];
 
-    // Definimos las imágenes de los productos para mostrarlas dinámicamente
+    // Imágenes de productos
     const imagenesProductos = {
         'Kebab clásico': 'assets/img/Kebab-Patatas-Coca-Cola.png',
         'Durum mixto': 'assets/img/menu-durum.png',
-        'Patatas con carne': 'assets/img/patatas-carne.png'
+        'Kebab vegetal': 'assets/img/kebab-vege.png',
+        'Patatas con carne': 'assets/img/patatas-carne.png',
+        'Arroz con carne': 'assets/img/arroz-carne.png',
+        'Pizza turca clásica': 'assets/img/menu-pizza.png',
+        'Pizza turca vegetariana': 'assets/img/menu_pizza-verdura.png',
+        'Menú familiar': 'assets/img/menu-familiar.png',
+        'Menu vegetariano': 'assets/img/falafel.png',
+        'Pizza turca más pita': 'assets/img/Pita-pizza.png',
     };
 
     // ===============================
