@@ -138,7 +138,7 @@ El diseño es el resultado de una búsqueda perfeccionista por una estética pro
 
 ### noticias.html
 
-![noticias.html](validaciones-W3C/index.html.png)
+![noticias.html](validaciones-W3C/noticias.png)
 
 ### ofertas.html
 
