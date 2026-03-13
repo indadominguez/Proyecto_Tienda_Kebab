@@ -123,5 +123,5 @@ document.addEventListener('DOMContentLoaded', () => {
             a.classList.toggle('oculto', !(valor === 'todos' || a.dataset.producto === valor));
         });
     });
-
+    
 });
