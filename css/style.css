@@ -924,9 +924,34 @@ a{
     transform: translateY(-5px);
 }
 
-/*  ========================
+/* ===================
+    Estrellas valorar
+   =================== */
+
+.estrellas {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.estrella {
+    font-size: 1.5rem;
+    color: var(--color-secundario);
+    transition: transform 0.2s, color 0.2s;
+}
+
+.estrella:hover,
+.estrella.hover,
+.estrella.activa {
+    color: gold; 
+    transform: scale(1.2);
+}
+
+
+/* ========================
     Estilos del formulario
-    ======================== */
+   ======================== */
 form {
     max-width: 700px;
     margin: 20px auto;
@@ -951,9 +976,9 @@ input.invalido, select.invalido {
     border-color: var(--color-primario);
 }
 
-/*  ======================
+/* ======================
     Filtro de productos
-    ====================== */
+   ====================== */
 #filtroProducto {
     display: block;
     margin: 25px auto;
@@ -962,9 +987,9 @@ input.invalido, select.invalido {
     border: 2px solid var(--color-primario);
 }
 
-/*  =======================
+/* =======================
     Galería de pedidos
-    ======================= */
+   ======================= */
 #galeriaPedidos {
     max-width: 1000px;
     margin: 30px auto;
@@ -1003,9 +1028,9 @@ article.pedido img {
     margin-bottom: 10px;
 }
 
-/*  ====================
+/* ====================
     Botón eliminar
-    ==================== */
+   ==================== */
 .boton-eliminar {
     background-color: var(--color-primario);
     color: var(--color-blanco);
@@ -1020,9 +1045,9 @@ article.pedido img {
     color: var(--color-oscuro);
 }
 
-/*  ============================
+/* ============================
     Clase para ocultar elementos
-    ============================ */
+   ============================ */
 .oculto {
     display: none;
 }
