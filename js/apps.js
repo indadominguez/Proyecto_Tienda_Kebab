@@ -101,7 +101,7 @@ document.head.appendChild(estilos);
     // ===============================
     // VARIABLES PRINCIPALES
     // ===============================
-    const formulario = document.querySelector('form');
+    const formulario = document.querySelector('#formularioPedido');
 
     const galeriaPedidos = document.createElement('section');
     galeriaPedidos.id = 'galeriaPedidos';
