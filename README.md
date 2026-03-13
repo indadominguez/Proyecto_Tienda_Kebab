@@ -125,35 +125,35 @@ El diseño es el resultado de una búsqueda perfeccionista por una estética pro
 
 ### index.html
 
-![index.html](validaciones-W3C/index.html.png)
+![index.html](validaciones-W3C/index.png)
 
 ### carta-menu.html
 
-<img width="1290" height="459" alt="Captura de pantalla 2025-12-08 213615" src="https://github.com/user-attachments/assets/f2792e9d-a047-46bd-aa2e-e20c5b916ee6" />
+![carta-menu.html](validaciones-W3C/carta-menu.png)
 
 
 ### formulario.html
 
-<img width="1496" height="447" alt="Captura de pantalla 2025-12-08 213727" src="https://github.com/user-attachments/assets/0f31777c-0e24-4afa-8d3b-66639ea04778" />
+![formulario.html](validaciones-W3C/formulario.png)
 
 ### noticias.html
 
-<img width="1211" height="460" alt="Captura de pantalla 2025-12-08 213803" src="https://github.com/user-attachments/assets/49a7e3cb-0e1a-4a77-8524-01751455c743" />
+![noticias.html](validaciones-W3C/index.html.png)
 
 ### ofertas.html
 
-<img width="902" height="688" alt="Captura de pantalla 2025-12-08 214216" src="https://github.com/user-attachments/assets/b1310162-cade-4074-9380-99afddfba447" />
+![ofertas.html](validaciones-W3C/ofertas.png)
 
 **No tenía cerrada una sección, fallo solucionado.**
-<img width="1388" height="454" alt="Captura de pantalla 2025-12-08 214310" src="https://github.com/user-attachments/assets/31e6aa11-78db-4b00-9ec6-5a00d404464d" />
+![ofertas.html](validaciones-W3C/error_oferta_solucionado.png)
 
 ### tienda.html
 
-<img width="1174" height="444" alt="Captura de pantalla 2025-12-08 214345" src="https://github.com/user-attachments/assets/a5ff573a-7027-4b92-a650-33e18213f778" />
+![tienda.html](validaciones-W3C/tienda.png)
 
 ## style.css
 
-<img width="1856" height="841" alt="Captura de pantalla 2025-12-08 214519" src="https://github.com/user-attachments/assets/79aa0f81-a850-460c-af84-b2cc866d0ef7" />
+![style.css](validaciones-W3C/validacion-css.png)
 
 ---
 
