@@ -55,57 +55,54 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         articulo.querySelector('.boton-eliminar').addEventListener('click', () => {
-            eliminarPedido(pedido);
-            articulo.remove();
+            articulo.classList.add('desaparecer'); 
+            articulo.addEventListener('transitionend', () => articulo.remove(), { once: true });
+            pedidos = pedidos.filter(p => p !== pedido);
+            localStorage.setItem('pedidos', JSON.stringify(pedidos));
         });
 
         pedidosContainer.appendChild(articulo);
     };
 
-    const eliminarPedido = pedido => {
-        pedidos = pedidos.filter(p => p !== pedido);
-        localStorage.setItem('pedidos', JSON.stringify(pedidos));
-    };
-
-    const campos = ['nombre','correo','telefono','direccion','producto','cantidad'];
+    // ===============================
+    // VALIDACIÓN DE CAMPOS
+    // ===============================
+    const campos = formulario.querySelectorAll('input, select');
 
     const validarCampo = campo => {
-    const valor = campo.value.trim();
-    campo.classList.toggle('invalido', !valor); 
-    campo.classList.toggle('valido', !!valor);  
-    return !!valor; 
-};
+        const valor = campo.value.trim();
+        campo.classList.toggle('invalido', !valor);
+        campo.classList.toggle('valido', !!valor);
+        return !!valor;
+    };
 
     formulario.addEventListener('input', e => {
-        if (campos.includes(e.target.id)) validarCampo(e.target);
+        if ([...campos].includes(e.target)) validarCampo(e.target);
     });
 
     formulario.addEventListener('submit', e => {
         e.preventDefault();
-
         let valido = true;
-        campos.forEach(id => {
-            const campo = document.querySelector(`#${id}`);
+        campos.forEach(campo => {
             if (!validarCampo(campo)) valido = false;
         });
         if (!valido) return;
 
         const pedido = {
-            nombre: document.querySelector('#nombre').value.trim(),
-            correo: document.querySelector('#correo').value.trim(),
-            telefono: document.querySelector('#telefono').value.trim(),
-            direccion: document.querySelector('#direccion').value.trim(),
-            producto: document.querySelector('#producto').value,
-            cantidad: document.querySelector('#cantidad').value
+            nombre: formulario.querySelector('#nombre').value.trim(),
+            correo: formulario.querySelector('#correo').value.trim(),
+            telefono: formulario.querySelector('#telefono').value.trim(),
+            direccion: formulario.querySelector('#direccion').value.trim(),
+            producto: formulario.querySelector('#producto').value,
+            cantidad: formulario.querySelector('#cantidad').value
         };
 
         pedidos.push(pedido);
         localStorage.setItem('pedidos', JSON.stringify(pedidos));
 
         mostrarPedido(pedido);
-
         formulario.reset();
-        campos.forEach(id => document.querySelector(`#${id}`).classList.remove('valido'));
+        campos.forEach(campo => campo.classList.remove('valido'));
     });
 
     pedidos.forEach(pedido => mostrarPedido(pedido));
