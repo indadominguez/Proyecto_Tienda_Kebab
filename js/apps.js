@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         articulo.innerHTML = `
             <img src="${imagenesProductos[pedido.producto]}" alt="${pedido.producto}" width="150">
             <p><strong>Nombre:</strong> ${pedido.nombre}</p>
-            <p><strong>Correo:</strong> ${pedido.correo}</p>
             <p><strong>Teléfono:</strong> ${pedido.telefono}</p>
             <p><strong>Dirección:</strong> ${pedido.direccion}</p>
             <p><strong>Producto:</strong> ${pedido.producto}</p>
@@ -70,11 +69,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const campos = formulario.querySelectorAll('input, select');
 
     const validarCampo = campo => {
-        const valido = campo.checkValidity();
-        campo.classList.toggle('invalido', !valido);
-        campo.classList.toggle('valido', valido);
-        return valido;
-    };
+    let valor = campo.value.trim();
+
+    if (campo.id === 'cantidad') {
+        valor = parseInt(valor, 10);
+        campo.value = valor; 
+    }
+
+    const valido = campo.checkValidity();
+    campo.classList.toggle('invalido', !valido);
+    campo.classList.toggle('valido', valido);
+    return valido;
+};
 
     formulario.addEventListener('input', e => {
         if ([...campos].includes(e.target)) validarCampo(e.target);
